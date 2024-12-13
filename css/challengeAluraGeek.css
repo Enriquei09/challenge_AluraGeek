@@ -29,4 +29,66 @@ body {
     font-size: 24px;
     font-family: "Press Start 2P", system-ui;
     color: rgba(229, 229, 229, 1);
-}    
+}   
+
+.div__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ---------- Form Section ------------- */
+.form__container{
+    display: flex;
+    flex-direction: column;
+    font-family: "Press Start 2P", system-ui ;
+}
+
+.form__container--inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    
+}
+
+input[type=text]{
+    padding: 10px 20px;
+    /* display: inline-block; */
+    border: 3px solid rgba(3, 49, 140, 1);
+    border-radius: 30px;
+    /* box-sizing: border-box; */
+    font-size: 16px;
+    
+}
+input::-webkit-input-placeholder { /* Chrome, Safari, Edge */
+    color: rgba(3, 49, 140, 1);
+}
+.text{
+    color: rgba(3, 49, 140, 1);
+}
+
+input[type=submit]{
+    padding: 12px 30px;
+    display: inline-block;
+    border: 3px solid rgba(3, 49, 140, 1);
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+    
+}
+
+.submit__send{
+    background-color: rgba(3, 49, 140, 1);
+    color: rgba(229, 229, 229, 1);
+}
+
+.submit__clean{
+    background-color: rgb(242, 244, 248);
+    color: rgba(3, 49, 140, 1);
+}
+/* ---------- Products Section ------------- */
+
+/* .products__container{
+
+} */
