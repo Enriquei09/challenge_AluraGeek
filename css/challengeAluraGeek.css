@@ -112,11 +112,29 @@ input[type=submit]{
 .products__container{
     display: flex;
     flex-direction: column;
+    gap: 40px;
+    margin: 30px;
+    width: 40%;
 }
 
 .products__container--catalogo{
     border-style: outset;
     padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: scroll;    
+    scroll-snap-type: x mandatory;
+    
+}
+
+.products__container--catalogo::-webkit-scrollbar {
+    height: 8px; /* Altura del scrollbar horizontal */
+}
+
+.products__container--catalogo::-webkit-scrollbar-thumb {
+    background-color:rgba(214, 214, 214, 1); /* Color del indicador */
+    border-radius: 15px; /* Bordes redondeados */
 }
 
 .prducts__card{
