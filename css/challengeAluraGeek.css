@@ -37,17 +37,27 @@ body {
     align-items: center;
 }
 
+.text_title{
+    font-family: "Press Start 2P", system-ui ;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center ;
+}
+
 /* ---------- Form Section ------------- */
 .form__container{
     display: flex;
     flex-direction: column;
-    font-family: "Press Start 2P", system-ui ;
+    
+    gap: 20px;
+    padding: 40px;
 }
 
 .form__container--inputs{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 40px;
     border-radius: 8px;
     
 }
@@ -59,22 +69,32 @@ input[type=text]{
     border-radius: 30px;
     /* box-sizing: border-box; */
     font-size: 16px;
+    font-weight: 600;
+    font-style:normal;
     
 }
 input::-webkit-input-placeholder { /* Chrome, Safari, Edge */
     color: rgba(3, 49, 140, 1);
+    font-family:  "IBM Plex Mono", monospace ;
 }
 .text{
     color: rgba(3, 49, 140, 1);
+    font-family:  "IBM Plex Mono", monospace ;
+    font-size: 16px;
+    font-weight: 600;
+    font-style:normal;
 }
 
 input[type=submit]{
-    padding: 12px 30px;
+    padding: 10px 30px;
     display: inline-block;
     border: 3px solid rgba(3, 49, 140, 1);
     border-radius: 15px;
     box-sizing: border-box;
     font-size: 20px;
+    font-family:  "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-style:normal;
     
 }
 
@@ -89,6 +109,34 @@ input[type=submit]{
 }
 /* ---------- Products Section ------------- */
 
-/* .products__container{
+.products__container{
+    display: flex;
+    flex-direction: column;
+}
 
-} */
+.products__container--catalogo{
+    border-style: outset;
+    padding: 10px 20px;
+}
+
+.prducts__card{
+    background-color: rgba(93, 4, 217, 1) ;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgba(229, 229, 229, 1);
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+}
+
+.prducts__card--element{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgba(229, 229, 229, 1);
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
