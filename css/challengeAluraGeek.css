@@ -22,7 +22,7 @@ body {
     position: relative;
 }
 
-.nav_container{
+.nav_container,.footer__element{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,3 +158,31 @@ input[type=submit]{
     font-weight: 700;
     font-style: normal;
 }
+
+/* ---------- Footer Section ------------- */
+.footer{
+    background-color: rgba(83, 0, 200, 1);
+    position: relative;
+    color: rgba(229, 229, 229, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__name1{
+    font-family: "IBM Plex Mono", monospace ;
+    font-weight: 400;
+    font-style:normal;
+}
+
+.footer__name2{
+    font-family: "IBM Plex Mono", monospace ;
+    font-weight: 200;
+    font-style:normal;
+}
+
+/* .footer__element{
+    font-size: 24px;
+    font-family: "Press Start 2P", system-ui;
+    color: rgba(229, 229, 229, 1);
+} */
