@@ -154,6 +154,12 @@ input[type=submit]{
     font-weight: 400;
 }
 
+/* .prducts__card--img{
+    display: none;
+    width: 100%;
+    height: 100%;
+} */
+
 .prducts__card--element{
     display: flex;
     flex-direction: row;
@@ -186,3 +192,63 @@ input[type=submit]{
     font-style:normal;
 }
 
+/* ---------- Responsividad ------------ */
+
+@media (min-width: 1024px){
+    .div__container{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;        
+        align-items: flex-start;
+        
+    }
+
+    .form__container{
+        /* align-items: flex-start; */
+        gap: 20px;
+        padding: 0%;
+        margin: 30px;
+        width: auto;
+    }
+
+    .products__container{
+        width: 50%;        
+        gap: 20px;
+        
+    }    
+
+    .products__container--catalogo {
+        border-style: outset; 
+        display: grid; /* Usamos Grid */
+        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+        grid-template-columns: auto auto auto;
+        gap: 10px; /* Espacio entre tarjetas */
+        padding: 20px;
+        height: 500px;
+        width: 100%;
+        overflow-y: scroll; /* Scroll vertical */
+        scroll-snap-type: y mandatory; /* Scroll ajustado */
+    }
+
+    .products__container--catalogo::-webkit-scrollbar {
+        width: 8px; /* Scroll vertical */
+        height: 0; /* Desactivar scroll horizontal */
+    }
+    
+    .products__container--catalogo::-webkit-scrollbar-thumb {
+        background-color:rgba(214, 214, 214, 1); /* Color del indicador */
+        border-radius: 15px; /* Bordes redondeados */
+    }   
+    
+
+    .prducts__card--img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .footer{
+        position: relative;
+        height: 150px;
+
+    }
+}
