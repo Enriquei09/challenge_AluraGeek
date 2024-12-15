@@ -114,13 +114,14 @@ input[type=submit]{
     flex-direction: column;
     gap: 40px;
     margin: 30px;
-    width: 40%;
+    width: 80%;
     
 }
 
 .products__container--catalogo{
     /* border-style: outset; */
     height: 100%;
+    width: 100%;
     padding: 20px 20px;
     display: flex;
     flex-direction: row;
