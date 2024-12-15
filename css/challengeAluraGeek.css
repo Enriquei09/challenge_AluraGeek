@@ -241,6 +241,7 @@ input[type=submit]{
 
     .footer{
         position: relative;
+        justify-content: center;
         height: 150px;
 
     }
