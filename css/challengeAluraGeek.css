@@ -83,7 +83,7 @@ input::-webkit-input-placeholder {
     font-style:normal;
 }
 
-input[type=submit]{
+input[type=submit],input[type=button]{
     padding: 10px 30px;
     display: inline-block;
     border: 3px solid rgba(3, 49, 140, 1);
