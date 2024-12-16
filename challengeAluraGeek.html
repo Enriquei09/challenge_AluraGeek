@@ -31,10 +31,10 @@
         <div class="div__container">
             <aside class="form__container">
                 <span class="text_title">AGREGAR <br> PRODUCTOS:</span>                             
-                <form class="form__container--inputs">
-                    <input class="text" type="text" id="fname" placeholder="nombre...">
-                    <input type="text" id="fprice" placeholder="precio...">
-                    <input type="text" id="fimage" placeholder="imagen...">
+                <form class="form__container--inputs" data-form>
+                    <input class="text" type="text" id="fname" placeholder="nombre..." data-name>
+                    <input type="text" id="fprice" placeholder="precio..." data-price>
+                    <input type="text" id="fimage" placeholder="imagen..." data-urlImage>
                     <div>
                         <input class="submit__send" type="submit" id="Bsend" value="Enviar">
                         <input class="submit__clean" type="submit" id="Bclean" value="Limpiar">
@@ -65,5 +65,6 @@
 
     </main>    
     <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./js/registrarProducto.js" type="module"></script>
 </body>
 </html>
