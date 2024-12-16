@@ -6,7 +6,7 @@ function createCard(name,price,urlImage){
     const producto = document.createElement("li");
     producto.className = "prducts__card";
     producto.innerHTML= `
-    <img  src="${urlImage}" alt="">                        
+    <img class="prducts__card--img" src="${urlImage}" alt="">                        
         <span>${name}</span>
         <div class="prducts__card--element">
                             
