@@ -11,7 +11,7 @@ function createCard(name,price,urlImage){
         <div class="prducts__card--element">
                             
             <p>$ ${price}</p>
-            <img src="/assets/icon_trash2_.png" alt="icono de basurero">
+            <a><img src="/assets/icon_trash2_.png" alt="icono de basurero"></a>
     
         </div>`;
 
