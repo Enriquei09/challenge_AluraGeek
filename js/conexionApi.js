@@ -34,8 +34,18 @@ async function obtenerUltimoId() {
     return Math.max(...productos.map(producto => parseInt(producto.id))); // Encuentra el mayor ID
 }
 
+async function eliminarProducto(id) {
+    const response = await fetch(`http://localhost:3000/productos/${id}`, {
+        method: "DELETE",
+    });
+
+    if (!response.ok) {
+        throw new Error(`Error al eliminar el producto con ID ${id}`);
+    }
+}
+
 export const conexionApi={
-    listarProductos,addProduct,obtenerUltimoId
+    listarProductos,addProduct,obtenerUltimoId,eliminarProducto
 }
 
 //listarProductos();

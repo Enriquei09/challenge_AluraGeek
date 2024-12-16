@@ -1,12 +1,6 @@
 {
   "productos": [
     {
-      "id": "1",
-      "name": "Stormtrooper",
-      "price": "65.00",
-      "urlImage": "https://imgs.search.brave.com/2n22hpv5c4OwpsUccDb58OVt5gPqM9CgnTAkZBt43kE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTI5/NjY2MzU2L3Bob3Rv/L3N0b3JtdHJvb3Bl/ci1sZWdvLW1pbmlm/aWd1cmUtYWxhcm0t/Y2xvY2suanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPWFyS0FL/TTVOdk55anI0Qy14/SDUwa2hLaFJGek1J/NHJnZXlLVl9tN3lG/OTQ9"
-    },
-    {
       "id": "2",
       "name": "Game boy",
       "price": "65.00",
